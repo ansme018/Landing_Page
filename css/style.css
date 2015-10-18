@@ -61,3 +61,34 @@ div {
     margin-bottom: 17px;
 }
 
+.introduction {
+	background-image: url("/Users/melissaanselmo/Projects/Startup_landingpage/img/person-computer.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	width: 85rem;
+	background-position: center-bottom;
+	overflow: auto;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	font-family:'Roboto', sans-serif;
+	margin-top: 18rem;
+	color: white;
+}
+
+h3 {font-size: 2rem;
+	color: white;
+	text-align: center;
+	font-family:'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.introduction .buttons {
+	color: orange;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	border: 0;
+}
