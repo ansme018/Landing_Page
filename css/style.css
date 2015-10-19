@@ -8,9 +8,6 @@ html {
 body {
     background-color: LightGray;
 }
-div {
-    border: 1px solid White;
-}
 
 /*Navigation Section */
 
@@ -19,8 +16,8 @@ div {
 }
 
 .top-navigation > .content {
-	width: 970px
-	height: 70px
+	width: 970px;
+	height: 70px;
 	margin: 0 auto;
 	padding: 0px 80px;
 	margin-left: auto;
@@ -72,23 +69,73 @@ div {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 3.125rem;
 	text-align: center;
 	font-family:'Roboto', sans-serif;
 	margin-top: 18rem;
 	color: white;
+	font-weight: 300;
 }
 
-h3 {font-size: 2rem;
+h3 {
+	font-size: 2rem;
 	color: white;
 	text-align: center;
 	font-family:'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 }
 
-.introduction .buttons {
-	color: orange;
+/*Button Syle*/
+
+.introduction .big-button {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+
+}
+button {
+	margin: 0 auto;
+	width: 9.688rem;
+	background-color: #f15a29;
+    border-color: #f15a29;
+	color: white;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	border: 0;
+	text-shadow: none;
+	border-style: none;
+	font-size: 1.125rem;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	line-height: 1.33;
+}
+
+button:hover {
+	background: #ff8c00;
+}
+
+/*Icon Cases Section*/
+
+.cases li{
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.cases li {
+ display: inline-block;
+}
+
+
+h2 {
+	text-align: center;
+	font-family:'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 2rem;
+}
+
+.cases h3 {
+	color: black;
+	font-size: 1.5rem;
+	text-align: center;
 }
