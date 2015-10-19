@@ -5,14 +5,23 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
-    background-color: LightGray;
+ /*   background-color: LightGray; */
 }
 
-/*Navigation Section */
+.content {
+	margin: 0 auto;
+	width: 970px;
+	text-align: center;	
+}
+
+/*Navigation Section*/
 
 .top-navigation {
 	background-color: white;
+	position: fixed;
+	width: 100%;
 }
 
 .top-navigation > .content {
@@ -63,8 +72,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
-	width: 85rem;
-	background-position: center-bottom;
+	background-position: center bottom;
 	overflow: auto;
 }
 
@@ -113,13 +121,14 @@ button:hover {
 	background: #ff8c00;
 }
 
-/*Icon Cases Section*/
+/*Icon Cases Section  Vessels...need to define margin....*/
 
+
+.cases {
+	background-color: white;
+}
 .cases li{
 	padding: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
-
 }
 
 .cases li {
