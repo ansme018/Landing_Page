@@ -136,7 +136,6 @@ button:hover {
  display: inline-block;
 }
 
-
 h2 {
 	text-align: center;
 	font-family:'Roboto', sans-serif;
@@ -152,24 +151,47 @@ h2 {
 
 /*Footer*/
 
-.icons li {
-	list-style: none;
-	display: inline-block;
+footer {
+	text-align:center;
 }
 
-.fa {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
+h5 {
+	text-align: center;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px
 }
 
-.social_media {
-    background-color: #fff;
-    overflow: auto;
-    padding-bottom: 9.375rem;
+
+/*Circle Borders Around Media icons*/
+
+.social_media .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 0.5rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
     text-align: center;
-.copy{
+}
+
+/*Media Icon Colors */
+.twitter {
+    color: #55acee;
+}
+
+.facebook {
+    color: #4c66a4;
+}
+
+.instagram {
+    color: #3f729b;
+    }
+
+.copy {
 	color: gray;
+	font-weight: 100;
+	text-align: center;
+	font-size: 12px;
 }
