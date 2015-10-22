@@ -69,7 +69,7 @@ body {
 }
 
 .introduction {
-	background-image: url("/Users/melissaanselmo/Projects/Startup_landingpage/img/person-computer.jpeg");
+	background-image: url("../img/person-computer.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
@@ -152,7 +152,7 @@ h2 {
 /*Footer*/
 
 footer {
-	text-align:center;
+	text-align: center;
 }
 
 h5 {
