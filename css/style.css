@@ -157,6 +157,19 @@ h2 {
 	display: inline-block;
 }
 
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.social_media {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
 .copy{
-	color: grey;
+	color: gray;
 }
